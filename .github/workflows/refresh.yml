@@ -1,0 +1,31 @@
+name: Weekly dashboard refresh
+
+on:
+  schedule:
+    # Mondays 10:00 UTC — finishes well before the 8:00 AM ET Cowork digest task,
+    # which mirrors this run's committed digest.md/index.html into the artifact
+    - cron: '0 10 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch CrossRef and rebuild dashboard
+        env:
+          CROSSREF_MAILTO: ${{ secrets.CROSSREF_MAILTO }}
+        run: python3 crossref_monitor.py --live --out index.html --digest digest.md
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html digest.md
+          git diff --cached --quiet && echo "No changes." && exit 0
+          git commit -m "Weekly dashboard refresh ($(date -u +%F))"
+          git push
