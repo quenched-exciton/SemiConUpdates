@@ -73,15 +73,20 @@
       scales: { y: { beginAtZero: true, ticks: { precision: 0 } }, x: { ticks: { autoSkip: false, maxRotation: 40, minRotation: 20 } } } }
   });
   function esc(s) { return (s || '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
-  const rows = RECORDS.map(r => {
-    const badges = r.facets.map(f => `<span class="badge ${r.tier === 'core' ? 'b-core' : 'b-adj'}">${esc(f)}</span>`).join('');
-    const newBadge = r.is_new ? '<span class="badge b-new">NEW</span> ' : '';
-    const titleCell = `${newBadge}<a href="${r.url}" target="_blank" rel="noopener">${esc(r.title)}</a>`;
-    return [r.created, titleCell, esc(r.journal || r.type), (badges || '-'), r.tier];
-  });
+  const rows = RECORDS
+    .map(r => {
+      const badges = r.facets.map(f => `<span class="badge ${r.tier === 'core' ? 'b-core' : 'b-adj'}">${esc(f)}</span>`).join('');
+      const newBadge = r.is_new ? '<span class="badge b-new">NEW</span> ' : '';
+      const titleCell = `${newBadge}<a href="${r.url}" target="_blank" rel="noopener">${esc(r.title)}</a>`;
+      return [r.created, titleCell, esc(r.journal || r.type), (badges || '-'), r.tier];
+    })
+    // Sort rows before Grid.js renders them. Index 0 is r.created, an ISO date
+    // string ("YYYY-MM-DD"), which compares correctly as plain text.
+    // b vs a  => descending (newest first). Swap to a[0].localeCompare(b[0]) for oldest first.
+    .sort((a, b) => b[0].localeCompare(a[0]));
   new gridjs.Grid({
     columns: [
-      { name: 'Listed', width: '96px' },
+      { name: 'Listed', width: '150px' },
       { name: 'Title', formatter: (cell) => gridjs.html(cell) },
       { name: 'Venue', width: '150px' },
       { name: 'Facets', formatter: (cell) => gridjs.html(cell), sort: false },
