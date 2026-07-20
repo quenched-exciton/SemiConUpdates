@@ -260,7 +260,7 @@ def build_html(records, today):
   }});
   new gridjs.Grid({{
     columns: [
-      {{ name: 'Listed', width: '96px' }},
+      {{ name: 'Listed', width: '150px' }},
       {{ name: 'Title', formatter: (cell) => gridjs.html(cell) }},
       {{ name: 'Venue', width: '150px' }},
       {{ name: 'Facets', formatter: (cell) => gridjs.html(cell), sort: false }},
