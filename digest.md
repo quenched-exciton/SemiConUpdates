@@ -1,10 +1,12 @@
-# Copper-plating additive digest -- week of 2026-07-18
+# Copper-plating additive digest -- week of 2026-07-20
 
-**16 new paper(s) listed in the last 7 days:**
+**18 new paper(s) listed in the last 7 days:**
 
 - **Mechanism for Polyethylene Glycol Suppression of Copper Electrodeposition Kinetics** (ECS Meeting Abstracts, listed 2026-07-16) -- Suppressor -- https://doi.org/10.1149/ma2026-01251339mtgabs
 - **Cooperative Suppression and Accelerator Exclusion on Copper: Mechanistic Origin of Thiadiazole Leveler G1 for Blind-Microvia Superfilling in Acidic Sulfate Plating** (Langmuir, listed 2026-07-14) -- Leveler, Accelerator, Microvia/Superfill -- https://doi.org/10.1021/acs.langmuir.6c01361
 - **Regulation mechanism of tetrahydrothiazole thione additive in electroplated copper foil deposits: Synergistic optimization of mechanical properties and electrochemical behavior** (Journal of Materials Research and Technology, listed 2026-07-14) -- Additive (general) -- https://doi.org/10.1016/j.jmrt.2026.07.099
+- **Trading strategies for electrolytic copper industrial parks participating in electricity-carbon markets based on multi-flow coupling** (posted-content, listed 2026-07-18) -- - -- https://doi.org/10.22541/authorea.15006246/v1
+- **Non-stoichiometric Al-Ti-CNTs master alloys for grain refinement and strength–ductility synergy in Al-Cu-Mn alloys** (Journal of Alloys and Compounds, listed 2026-07-18) -- Fine-grain/Nanotwinned -- https://doi.org/10.1016/j.jallcom.2026.189859
 - **Metallization of Advanced Interconnects by Cu Electroplating in Alkaline Media** (ECS Meeting Abstracts, listed 2026-07-16) -- Alkaline system -- https://doi.org/10.1149/ma2026-01251320mtgabs
 - **Study on Magnet Eddy Current Loss Reduction by Applying Copper Foil around the Magnets in Interior Permanent Magnet Synchronous Motors** (2026 International Power Electronics Conference (IPEC-Nagasaki 2026 - ECCE Asia), listed 2026-07-16) -- - -- https://doi.org/10.23919/ipec-nagasaki2026-ec64663.2026.11596928
 - **Electrodeposition of Cu-Mn Alloys for Semiconductor Interconnect Applications** (ECS Meeting Abstracts, listed 2026-07-16) -- - -- https://doi.org/10.1149/ma2026-01251319mtgabs
