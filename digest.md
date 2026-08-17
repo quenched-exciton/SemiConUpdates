@@ -1,14 +1,14 @@
-# Copper-plating additive digest -- week of 2026-08-10
+# Copper-plating additive digest -- week of 2026-08-17
 
-**7 new paper(s) listed in the last 7 days:**
+**8 new paper(s) listed in the last 7 days:**
 
-- **Laser-offset assisted in-situ Ti/Zr microalloying for grain refinement in Arc-DED fabricated Al-Cu alloy** (Scripta Materialia, listed 2026-08-08) -- Fine-grain/Nanotwinned -- https://doi.org/10.1016/j.scriptamat.2026.117533
-- **Fabrication of low-porosity and low-resistance microscale copper structures via autocatalytic plating of laser-printed precursors** (Additive Manufacturing, listed 2026-08-06) -- - -- https://doi.org/10.1016/j.addma.2026.105332
-- **Influence of Electrolyte Concentration on the Morphology and Airborne Particulate Matter Removal Efficiency of Electrodeposited Copper Films** (posted-content, listed 2026-08-06) -- - -- https://doi.org/10.21203/rs.3.rs-10126181/v1
-- **Optimization of Salt Bath Chromium Plating for Enhanced Thermal Conductivity in Diamond/Copper Composites** (posted-content, listed 2026-08-04) -- - -- https://doi.org/10.2139/ssrn.7228352
-- **Effect of Potentiostatic Copper Electrodeposition Time on the Electrochemical Response of Porous Powder-Metallurgy Ti6Al4V in Hank's Solution** (posted-content, listed 2026-08-04) -- - -- https://doi.org/10.2139/ssrn.7228550
-- **Iodine Capture with Copper-Electroplated Nickel Foams** (Industrial &amp; Engineering
-Chemistry Research, listed 2026-08-04) -- - -- https://doi.org/10.1021/acs.iecr.6c02478
-- **Gas-assisted electrodeposition modulates the grain structure of Cu catalysts for selective conversion of CO2 to C2+ products** (Journal of CO2 Utilization, listed 2026-08-04) -- - -- https://doi.org/10.1016/j.jcou.2026.103535
+- **Synergistic Enhancement of Corrosion Resistance by Citrate and Nitrite in Al-Based Passivation on Electrolytic Copper Foil** (JOM, listed 2026-08-14) -- - -- https://doi.org/10.1007/s11837-026-08646-2
+- **Investigation of yttrium doping on the structure, morphology, optical, and photovoltaic properties of electrodeposited barium copper sulphide thin films** (Next Nanotechnology, listed 2026-08-14) -- - -- https://doi.org/10.1016/j.nxnano.2026.100691
+- **Effect of Current Density, Surfactants, and CuSO4 Concentration on Copper Electroplating of Iron Surfaces** (IPTEK The Journal of Engineering, listed 2026-08-12) -- - -- https://doi.org/10.12962/j28075064.v12i1.9683
+- **A volume-conservation‑based approximate method for determining densification strain of high‑porosity electrodeposited copper foam** (Materials &amp; Design, listed 2026-08-12) -- - -- https://doi.org/10.1016/j.matdes.2026.116782
+- **Flexible pressure sensors based on electroless copper plating methods for human motion detection** (Sensors and Actuators A: Physical, listed 2026-08-12) -- - -- https://doi.org/10.1016/j.sna.2026.118371
+- **Electroless copper plating on basalt fiber surface through polyacrylate-stabilized copper nanoparticles** (Composite Interfaces, listed 2026-08-11) -- - -- https://doi.org/10.1080/09276440.2026.2715168
+- **Preparation and Comprehensive Properties of CeO2-Doped Composite Copper Foils** (Lubricants, listed 2026-08-10) -- - -- https://doi.org/10.3390/lubricants14080307
+- **Industrial Big Data-Driven Transfer Reinforcement Learning for Energy Optimization of Electrolytic Copper Foil Electrodeposition** (2026 IEEE 3rd International Conference on Big Data Science and Engineering (ICBDSE), listed 2026-08-10) -- - -- https://doi.org/10.1109/icbdse70225.2026.11635585
 
-_Trailing 60-day total: 96 on-topic papers (full deep-paged CrossRef sweep)._
+_Trailing 60-day total: 83 on-topic papers (full deep-paged CrossRef sweep)._
